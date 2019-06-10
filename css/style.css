@@ -1,0 +1,344 @@
+/*
+    them-name    :GICG
+    Author       :Mina Kamil
+    Date         :6/8/2019
+    Company      :Bits&bit
+*/
+
+/* Fonts Lora */
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+/* Global Code */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+}
+
+:root {
+  --blue: #0d586d;
+  --white: #fff;
+  --grey-black: #30373f;
+  --dark-black: #292f36;
+  --dark-gold: #b1933a;
+  --dark-grey: #d7d7d7;
+  --grey: #f1eee8;
+}
+
+.text-color-blue {
+  color: var(--blue)
+}
+
+.background-color-blue {
+  background-color: var(--blue)
+}
+
+/* start header */
+.nav-bar .navbar.bg-light {
+  background-color: var(--white) !important;
+  margin-top: 30px
+}
+
+.navbar-nav .nav-item>.nav-link:hover {
+  color: var(--dark-gold)
+}
+
+.navbar-nav .nav-item>.nav-link {
+  color: var(--blue);
+  /* Style for "About Us" */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.navbar-nav .nav-item.active>.nav-link {
+  color: var(--dark-gold)
+}
+
+.nav-bar img.img-fluid {
+  width: 100px;
+  margin-top: 20px;
+}
+
+ul.nav-social {
+  margin-top: 33px;
+}
+
+ul.nav-social>li::after {
+  content: "\007c";
+  margin: 0 4px;
+  font-size: 25px;
+  line-height: 1;
+  color: var(--blue);
+  opacity: .2;
+}
+
+ul.nav-social>li:last-of-type::after {
+  content: "";
+}
+
+ul.nav-social>li i {
+  font-size: 21px;
+  color: var(--blue)
+}
+
+@media (max-width: 767px) {
+
+  /* Mobile & Tablet Rules*/
+  .nav-bar .navbar .navbar-nav {
+    width: 263%;
+    border: 1px solid var(--grey);
+    margin-top: 28px;
+  }
+
+  .nav-bar .navbar .navbar-nav li.nav-item {
+    border-bottom: 1px solid var(--grey);
+    padding: 10px 11px;
+  }
+
+  .nav-bar .navbar .navbar-nav li.nav-item:hover {
+    border-left: 11px solid var(--dark-gold);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+  }
+}
+
+/* end header */
+/* start images */
+
+.images .card-group .card .card-img {
+  height: 490px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.images .card-group .card .card-img-overlay {
+  top: 45%;
+  bottom: 40%;
+  background-color: rgba(0, 0, 0, 0.27);
+}
+
+@media (max-width: 768px) {
+
+  /* Small Screen Rules*/
+  .images .card-group .card .card-img {
+    height: 205px;
+  }
+
+  .images .card-group .card .card-img-overlay {
+    bottom: 23%;
+  }
+
+  .images .card-group .card .card-img-overlay .card-title {
+    font-size: 13px
+  }
+}
+
+/* end images */
+
+/* strat about-us */
+.about-us {
+  position: relative;
+  margin-bottom: 50px
+}
+
+.about-us .card-title.h1 {
+  color: var(--blue)
+}
+
+.about-us .card-about-us .card-subtitle {
+  color: var(--dark-gold)
+}
+
+.about-us .card-about-us .card-text {
+  color: var(--blue);
+  font-size: 14px;
+}
+
+.about-us .btn-dark-gold {
+  background-color: var(--dark-gold);
+  color: var(--white)
+}
+
+.about-us .btn-play {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  width: 100%;
+}
+
+.about-us .btn-dark-blue span {
+  font-size: 12px;
+}
+
+.about-us .btn-dark-blue {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.about-us .carousel-fade .carousel-inner {
+  overflow: visible;
+}
+
+.about-us .country-img {
+  margin-bottom: -177px
+}
+
+.about-us .card-country .card-img-top {
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* .about-us .country-img {
+  margin-bottom: 10%
+} */
+
+.about-us .card-country .card-box {
+  height: 220px;
+  font-size: 16px;
+  color: var(--blue)
+}
+
+/* end about-us */
+/* start free-consultation */
+.free-consultation {
+  padding-bottom: 100px;
+  background-color: rgba(241, 238, 232, 0.22);
+}
+
+.free-consultation .card-bg-grey {
+  background-color: transparent;
+}
+
+.free-consultation .card-group .card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.74);
+}
+
+.free-consultation .card-group .card .card-img-overlay .card-title {
+  letter-spacing: 3.55px;
+  margin-top: 33%
+}
+
+/* end free-consultation */
+/* start news-events */
+.news-events {
+  background-color: var(--grey)
+}
+
+.news-events h3 {
+  padding-top: 70px;
+}
+
+.news-events .card-style {
+  width: 18rem;
+  margin: -45px auto 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  padding-bottom: 15px;
+}
+
+.news-events .card-style .card-text {
+  font-size: 14px;
+}
+
+.news-events .card-btn {
+  background-color: transparent;
+  border: 0;
+  margin-top: -30px;
+  margin-left: 61%;
+  width: 8rem;
+  padding: 0;
+}
+
+.news-events .card-btn .btn-gold {
+  background-color: var(--dark-gold);
+  color: var(--white);
+  padding: 20px;
+  font-size: 13px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.news-events .btn-know-more {
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+/* end news-events */
+/* start contact-us */
+.contact-us {
+  background: url('../img/IMG_0130.webp') no-repeat center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+
+.contact-us .card-img-overlay {
+  background-color: rgba(13, 88, 109, 0.88);
+}
+
+.contact-us .card-contact-us {
+  margin-top: 120px;
+}
+
+.contact-us .btn-gold {
+  background-color: var(--dark-gold);
+  color: var(--white);
+  font-size: 12px;
+}
+
+/* end contact-us */
+/* start footer */
+.footer {
+  background-color: #f3f6f8;
+  padding: 60px 0 0;
+}
+
+.footer .text-style {
+  font-size: 13px;
+}
+
+.footer .list-unstyled li a {
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 13px;
+}
+
+/* end footer */
+/* start copy-right */
+.copy-right h6 {
+  font-size: 13px
+}
+
+/* end copy-right */
