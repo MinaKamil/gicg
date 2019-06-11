@@ -126,16 +126,13 @@ ul.nav-social>li i {
   background-color: rgba(0, 0, 0, 0.27);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 823px) {
 
   /* Small Screen Rules*/
-  .images .card-group .card .card-img {
-    /* height: 205px; */
-  }
 
-  /* .images .card-group .card .card-img-overlay {
-    bottom: 23%;
-  } */
+  .images .card-group .card .card-img-overlay {
+    bottom: 47%;
+  }
 
   .images .card-group .card .card-img-overlay .card-title {
     font-size: 13px
