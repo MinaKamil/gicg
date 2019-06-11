@@ -112,7 +112,7 @@ ul.nav-social>li i {
 /* start images */
 
 .images .card-group .card .card-img {
-  height: 490px;
+  /* height: 490px; */
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -130,12 +130,12 @@ ul.nav-social>li i {
 
   /* Small Screen Rules*/
   .images .card-group .card .card-img {
-    height: 205px;
+    /* height: 205px; */
   }
 
-  .images .card-group .card .card-img-overlay {
+  /* .images .card-group .card .card-img-overlay {
     bottom: 23%;
-  }
+  } */
 
   .images .card-group .card .card-img-overlay .card-title {
     font-size: 13px
