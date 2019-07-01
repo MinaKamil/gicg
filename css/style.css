@@ -13,8 +13,13 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Lora', serif;
+  overflow-x: hidden
 }
 
 :root {
@@ -339,6 +344,65 @@ ul.nav-social>li i {
 }
 
 /* end copy-right */
+/* ==========================================================================
+ Video promo Style
+ ========================================================================== */
+/* .video-promo {
+  background: url(../img/bg/video.jpg);
+  position: relative;
+} */
+
+/* ==========================================================================
+   Video Background
+   ========================================================================== */
+#video-area {
+  overflow: hidden;
+  position: relative;
+}
+
+#video-area .contents {
+  padding: 160px 0 80px;
+}
+
+#video-area .contents h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  line-height: 70px;
+}
+
+#video-area .contents p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+#video-area .contents .btn {
+  margin: 20px 10px;
+  text-transform: uppercase;
+}
+
+#video-area .banner_bottom_btn {
+  margin-top: 40px;
+}
+
+#video-area .banner_bottom_btn i {
+  color: #fff;
+  font-size: 48px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#video-area .banner_bottom_btn i:hover {
+  color: #F97794;
+}
+
 /* ==========================================================================
    2.4  Pre Loader
    ========================================================================== */
